@@ -192,16 +192,16 @@ under the License.
      |
      | This profile example uses the JDK version to trigger activation, and provides a JDK-specific repo.
     <profile>
-      <id>jdk-1.4</id>
+      <id>jdk-17.0.6</id>
 
       <activation>
-        <jdk>1.4</jdk>
+        <jdk>17.0.6</jdk>
       </activation>
 
       <repositories>
         <repository>
-          <id>jdk14</id>
-          <name>Repository for JDK 1.4 builds</name>
+          <id>jdk17.0.6</id>
+          <name>Repository for JDK 17.0.6 builds</name>
           <url>http://www.myhost.com/maven/jdk14</url>
           <layout>default</layout>
           <snapshotPolicy>always</snapshotPolicy>
